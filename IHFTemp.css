@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+body { 
+	background-color:#000000;
+	width:900px;
+	height:720px;
+	}
+
+#logo { 
+	position:absolute;
+	background-image:url(IHFLogoBlackLarge.jpg);
+	top:200px;
+	width:900px;
+	height:263px;
+	}
+	
+#contact {
+	position:absolute;
+	top:500px;
+	width:900px;
+	text-align:center;
+	font:Arial, Helvetica, sans-serif;
+	font-size:18pt;
+	color:#E9C9F2;
+	link:{color:#E9C9F2};
+}

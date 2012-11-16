@@ -1,0 +1,9 @@
+NavBar: 922x50
+
+NavBar (ex callout): 822x50
+
+NavButton0: 154x48, x=170
+NavButton1: 146x48, x=315
+NavButton2: 124x48, x=438
+NavButton3: 96x48, x=534
+NavButton4: 144x48, x=676

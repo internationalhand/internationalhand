@@ -1,0 +1,461 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* font classes */
+*.headerText {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12pt;
+	font-weight:bold;
+	margin:2px;
+	padding:2px;
+	}
+	
+*.headerTextLeading {
+	margin-top:16px;
+	}
+	
+*.headerTextTopMargin {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12pt;
+	font-weight:bold;
+	margin:2px;
+	margin-top:12px;
+	padding:2px;
+	}
+	
+*.largeBodyText {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12pt;
+	margin:5px;
+	padding:5px;
+	text-indent:10px;
+	}
+	
+*.bodyText {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:10pt;
+	color:#363636;
+	margin:2px;
+	padding:4px;
+	text-indent:10px;
+	}
+	
+*.bodyTextLeading {
+	margin-top:24px;
+	}
+	
+*.bodyTextFollowing {
+	margin-top:0px;
+	padding-top:0px;
+	}
+
+*.bodyTextBold {
+	font-weight:bold;
+	}
+	
+*.smallBodyText {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:8pt;
+	color:#363636;
+	margin:2px;
+	padding:4px;
+	text-indent:10px;
+	}
+	
+a:link {
+	color:#000;
+}
+
+body { 
+	background-color:#000000;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	}
+	
+p {
+	margin-top:8px;
+	margin-bottom:8px;
+	}
+	
+div#appArea {
+	width:960px;
+	height:700px;
+	margin:0;
+	text-align:left;
+	}
+
+div#navArea { 
+	position:absolute;
+	background-image:url(img/NavAndLogo960x186.jpg);
+	width:960px;
+	height:186px;
+	}
+	
+div#mainArea { 
+	position:absolute;
+	background-image:url(img/LargeLeftPod960x514.jpg);
+	top:200px;
+	width:960px;
+	height:514px;
+	}
+
+div#mainAreaDoublePod { 
+	position:absolute;
+	background-image:url(img/DoublePod960x514.jpg);
+	top:200px;
+	width:960px;
+	height:514px;
+	}
+	
+div#mainAreaRightPod { 
+	position:absolute;
+	background-image:url(img/LargeRightPod960x514.jpg);
+	top:200px;
+	width:960px;
+	height:514px;
+	}
+
+div#mainAreaLeftPod { 
+	position:absolute;
+	background-image:url(img/LargeLeftPod960x514_2.jpg);
+	top:200px;
+	width:960px;
+	height:514px;
+	}
+	
+div#navButton0 {
+	position:absolute;
+	background-image:url(img/NavButton0_norm.jpg);
+	width:154px;
+	height:48px;
+	top:132px;
+	left:26px;
+	}
+	
+div#navButton1 {
+	position:absolute;
+	background-image:url(img/NavButton1_norm.jpg);
+	width:146px;
+	height:48px;
+	top:132px;
+	left:180px;
+	}
+	
+div#navButton2 {
+	position:absolute;
+	background-image:url(img/NavButton2_norm.jpg);
+	width:124px;
+	height:48px;
+	top:132px;
+	left:326px;
+	}
+	
+div#navButton3 {
+	position:absolute;
+	background-image:url(img/NavButton3_norm.jpg);
+	width:96px;
+	height:48px;
+	top:132px;
+	left:450px;
+	}
+	
+div#navButton4 {
+	position:absolute;
+	background-image:url(img/NavButton4_norm.jpg);
+	width:144px;
+	height:48px;
+	top:132px;
+	left:546px;
+	}
+	
+div#navButton5 {
+	position:absolute;
+	background-image:url(img/NavButton5_norm.jpg);
+	width:144px;
+	height:48px;
+	top:132px;
+	left:690px;
+	}
+	
+dl#logoHomeMap {
+	position:absolute;
+	top:10px;
+	left:20px;
+	width:470px;
+	height:118px;
+	background:transparent;
+	}
+	
+dl#logoHomeMap a#logoHomeLink {
+	position:absolute;
+	width:470px;
+	height:118px;
+	background:transparent;
+	}
+	
+dl#topCalloutMap {
+	position:absolute;
+	top:20px;
+	left:732px;
+	width:190px;
+	height:110px;
+	background:transparent;
+	}
+	
+dl#topCalloutMap a#topCalloutLink {
+	position:absolute;
+	width:190px;
+	height:110px;
+	background:transparent;
+	}
+
+dl#mainCalloutMap {
+	position:absolute;
+	top:250px;
+	left:0px;
+	width:295px;
+	height:212px;
+	background:transparent;
+	}
+	
+dl#mainCalloutMap a#mainCalloutLink {
+	position:absolute;
+	width:295px;
+	height:212px;
+	background:transparent;
+	}
+	
+#contact {
+	position:absolute;
+	top:500px;
+	width:960px;
+	text-align:center;
+	font:Arial, Helvetica, sans-serif;
+	font-size:18pt;
+	color:#E9C9F2;
+	link:{color:#E9C9F2};
+	}
+	
+div#mainArea div#mainPhoto {
+	position:absolute;
+	background-image:url(img/KidsDeskMain621x253.jpg);
+	width:621px;
+	height:253px;
+	left: 319px;
+	top: 3px;
+	}
+	
+div#mainArea div#quote {
+	position:absolute;
+	font:  "Comic Sans MS", cursive;
+	font-size:14pt;
+	text-align:center;
+	top:36px;
+	left:416px;
+	width:480px;
+	}
+	
+div#mainArea div#mission {
+	position:absolute;
+	top:254px;
+	left:330px;
+	width:590px;
+	height: 190px;
+	}
+
+div#rightLDCChart { 
+	position:absolute;
+	background-image:url(img/LDCChart.jpg);
+	top:22px;
+	left:499px;
+	width:428px;
+	height:344px;
+	}
+	
+div#leftPod {
+	position:absolute;
+	top:10px;
+	left:10px;
+	width: 280px;
+	}
+	
+div#smallLeftPod {
+	position:absolute;
+	top:10px;
+	left:20px;
+	width:280px;
+	height:475px;
+	}
+	
+div#smallLeftPodMid {
+	position:absolute;
+	top:80px;
+	left:20px;
+	width:280px;
+	height:475px;
+	}
+	
+div#smallRightPod {
+	position:absolute;
+	top:-5px;
+	left:646px;
+	width: 293px;
+	height: 477px;
+	}
+
+div#largeLeftPod {
+	position:absolute;
+	top:2px;
+	left:17px;
+	width:600px;
+	height:478px;
+	}
+	
+div#largeRightPod {
+	position:absolute;
+	top:6px;
+	left:328px;
+	width: 600px;
+	height: 478px;
+	}
+	
+div#mainFooter {
+	position:absolute;
+	top:505px;
+	left:11px;
+	width:935px;
+	height:40px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	color:#FFF;
+	text-align:center;
+	}
+	
+div#mainFooter a:link {
+	color:#FFF;
+	}
+	
+div#leftPod div#purposeHeader {
+	position:absolute;
+	top:15px;
+	left:21px;
+	}
+	
+div#leftPod div#purposeList {
+	position:absolute;
+	top:53px;
+	left:4px;
+	}
+	
+div#purposeList li {
+	margin: 10px;
+	}
+	
+div#corpInfoText {
+	position:absolute;
+	top:440px;
+	left:-8px;
+	width: 611px;
+	}
+	
+div#ceoPic {
+	position:absolute;
+	background-image:url(img/Michelle169x300.jpg);
+	width:169px;
+	height:300px;
+	left: 14px;
+	top: 25px;
+	}
+	
+div#ceoText {
+	position:absolute;
+	top:25px;
+	left:199px;
+	width:393px;
+	height: 278px;
+}
+	
+div#factsPhoto {
+	position:absolute;
+	background-image:url(img/ChildChalk261x301.jpg);
+	width:301px;
+	height:261px;
+	left: 641px;
+	top: 228px;
+	}
+	
+div#eduText {
+	position:absolute;
+	left: -1px;
+	top: 185px;
+	height: 268px;
+	width: 600px;
+}
+	
+div#schoolDoorPhoto {
+	position:absolute;
+	background-image:url(img/SchoolDoor625x189.jpg);
+	width:625px;
+	height:189px;
+	left: 13px;
+	top: 3px;
+	}
+	
+div#emptySchoolPhoto {
+	position:absolute;
+	background-image:url(img/EmptySchool303x490.jpg);
+	width:303px;
+	height:490px;
+	left: 13px;
+	top: 0px;
+	}
+	
+div#porchPhoto {
+	position:absolute;
+	background-image:url(img/Porch625x378.jpg);
+	width:625px;
+	height:378px;
+	left: 63px;
+	top: 293px;
+	}
+	
+div#stretchLogo {
+	position:absolute;
+	background-image:url(img/StretchLogo303x247.jpg);
+	width:303px;
+	height:247px;
+	left: 640px;
+	top: 240px;
+	}
+	
+div#paypalDonate {
+	position:absolute;
+	left: 166px;
+	top: 200px;
+	margin:10px;
+	}
+	
+div#childHandPhoto {
+	position:absolute;
+	background-image:url(img/ChildFace303x491.jpg);
+	width:303px;
+	height:491px;
+	left: 638px;
+	top: 0px;
+	}
+	
+div#teacherPhoto {
+	position:absolute;
+	background-image:url(img/Teacher628x205.jpg);
+	width:628px;
+	height:205px;
+	left: 316px;
+	top: 0px;
+	}
+	
+div#volunteerText {
+	position:absolute;
+	top:210px;
+}
