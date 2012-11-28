@@ -337,7 +337,7 @@ div#mainFooter a:link {
 	color:#FFF;
 	}
 	
-div#leftPod div#purposeHeader {
+div#leftPod #purposeHeader {
 	position:absolute;
 	top:15px;
 	left:21px;
